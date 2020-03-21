@@ -7,7 +7,6 @@ import { ClienteDTO } from '../../models/cliente.dto';
 import { EnderecoDTO } from '../../models/endereco.dto';
 import { ClienteService } from '../../services/domain/cliente.service';
 import { PedidoService } from '../../services/domain/pedido.service.dto';
-import { Location } from '@angular/common';
 
 @IonicPage()
 @Component({
