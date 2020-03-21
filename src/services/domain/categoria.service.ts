@@ -6,6 +6,7 @@ import { Observable } from "rxjs/Rx";
 
 @Injectable()
 export class CategoriaService {
+    
     constructor(public http: HttpClient){
     }
 
