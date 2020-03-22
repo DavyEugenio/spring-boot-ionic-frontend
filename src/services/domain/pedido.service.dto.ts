@@ -2,7 +2,6 @@ import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { PedidoDTO } from "../../models/pedido.dto";
 import { API_CONFIG } from "../../config/api.config";
-import { ResponseType } from "@angular/http";
 
 @Injectable()
 export class PedidoService {
