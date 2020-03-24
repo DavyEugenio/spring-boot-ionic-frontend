@@ -16,6 +16,7 @@ import { ClienteService } from '../services/domain/cliente.service';
 import { ProdutoService } from '../services/domain/produto.service';
 import { CartService } from '../services/domain/cart.service';
 import { ImageUtilService } from '../services/Image-util.service';
+import { Camera } from '@ionic-native/camera';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ImageUtilService } from '../services/Image-util.service';
     ClienteService,
     ProdutoService,
     CartService,
-    ImageUtilService
+    ImageUtilService,
+    Camera
   ]
 })
 export class AppModule {}
